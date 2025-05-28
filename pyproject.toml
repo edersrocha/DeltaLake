@@ -1,0 +1,12 @@
+[project]
+name = "deltalake"
+version = "0.1.0"
+description = "Uma biblioteca para trabalhar com Delta Lake"
+authors = [{ name="Eder Dos Santos Rocha", email="eder30rocha@gmail.com" }]
+dependencies = [
+    "deltalake",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
